@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import logo01 from "../assets/logo-01.svg"
-import home from "../assets/home.png"
 const Sidebar = () => {
     return (
         <div>
@@ -23,13 +22,14 @@ const Sidebar = () => {
 
         <ul className="space-y-2 tracking-wide mt-3 ">
            
+           {/* Dashboard */}
             <li>
                 
 
                     <NavLink
   to="/"
   className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? " px-5 py-3 flex items-center space-x-4 rounded-lg text-[#FFF] bg-[#006F45]" : ""
+    isPending ? "pending" : isActive ? " px-5  py-3 flex items-center space-x-4 rounded-lg text-[#FFF] bg-[#006F45]" : ""
   }
 >
  <div className='flex justify-center   gap-3 items-center'>
@@ -49,6 +49,7 @@ const Sidebar = () => {
             </li>
 
 
+{/* Beneficiaries */}
 
             <li>
                 
@@ -79,6 +80,7 @@ isPending ? "pending" : isActive ? " px-5 py-3 flex items-center space-x-4 round
         </li>
 
 
+{/* Human Assets */}
 
         <li>
                 
@@ -108,6 +110,7 @@ isPending ? "pending" : isActive ? " px-5 py-3 flex items-center space-x-4 round
           
         </li>
 
+{/* Services */}
 
         <li>
                 
@@ -140,7 +143,7 @@ isPending ? "pending" : isActive ? " px-5 py-3 flex items-center space-x-4 round
         </li>
 
 
-
+{/* Events */}
 
         <li>
                 
@@ -172,6 +175,7 @@ isPending ? "pending" : isActive ? " px-5 py-3 flex items-center space-x-4 round
         </li>
 
 
+{/* Projects< */}
 
         <li>
                 
@@ -206,6 +210,7 @@ isPending ? "pending" : isActive ? " px-5 py-3 flex items-center space-x-4 round
 
 
 
+{/* Staff Trainings */}
 
 
         <li>
@@ -238,6 +243,8 @@ isPending ? "pending" : isActive ? " px-5 py-3 flex items-center space-x-4 round
         </li>
 
 
+{/* Miscellaneous */}
+
         <li>
                 
 
@@ -268,6 +275,8 @@ isPending ? "pending" : isActive ? " px-5 py-3 flex items-center space-x-4 round
           
         </li>
 
+
+{/* Fleet Management */}
 
         <li>
                 
@@ -303,7 +312,7 @@ isPending ? "pending" : isActive ? " px-5 py-3 flex items-center space-x-4 round
 
   
 
-
+{/* ICT Inventories */}
 
 
         <li>
@@ -339,7 +348,7 @@ isPending ? "pending" : isActive ? " px-5 py-3 flex items-center space-x-4 round
         </li>
 
 
-
+{/* Stock Management */}
 
         <li>
                 
@@ -371,6 +380,8 @@ isPending ? "pending" : isActive ? " px-5 py-3 flex items-center space-x-4 round
           
         </li>
 
+
+{/* Unapproved List */}
 
 
         <li>
@@ -405,6 +416,8 @@ isPending ? "pending" : isActive ? " px-5 py-3 flex items-center space-x-4 round
 
 
 
+{/* Archives */}
+
 
         <li>
                 
@@ -437,7 +450,7 @@ isPending ? "pending" : isActive ? " px-5 py-3 flex items-center space-x-4 round
         </li>
 
 
-
+{/* Change Password */}
 
         <li>
                 
@@ -471,6 +484,9 @@ isPending ? "pending" : isActive ? " px-5 py-3 flex items-center space-x-4 round
         </li>
 
 
+
+{/* Help */}
+
         <li>
                 
 
@@ -480,7 +496,7 @@ className={({ isActive, isPending }) =>
 isPending ? "pending" : isActive ? " px-5 py-3 flex items-center space-x-4 rounded-lg text-[#FFF] bg-[#006F45]" : ""
 }
 >
-<div className='flex mt-4 pl-4 gap-3 items-center'>
+<div className='flex mt-4 mb-8 pl-4 gap-3 items-center'>
 
 <div>
 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">

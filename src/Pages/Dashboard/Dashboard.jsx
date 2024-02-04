@@ -17,7 +17,7 @@ const Dashboard = () => {
 
 
 
-<div className="ml-auto mb-6 lg:w-[75%] xl:w-[80%] 2xl:w-[85%] ">
+<div className="ml-auto bg-[#F8F8F8] border-b-2 py-3 mb-6 lg:w-[75%] xl:w-[80%] 2xl:w-[85%] ">
  
 
  {/* dashboard navber */}
@@ -26,7 +26,7 @@ const Dashboard = () => {
    
 
    {/* outlet */}
-     <div className="w-full px-10">
+     <div className="w-full  px-10">
         
             
            <Outlet/>
