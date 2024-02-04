@@ -2,7 +2,7 @@ import React from 'react';
 import logo from "../../public/logo.svg"
 const Navber = () => {
     return (
-        <div className='flex'>
+        <div className='flex border-b-2 pb-2 '>
 
 {/* searchbar */}
 

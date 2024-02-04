@@ -29,7 +29,7 @@ const Sidebar = () => {
                     <NavLink
   to="/"
   className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? " px-5  py-3 flex items-center space-x-4 rounded-lg text-[#FFF] bg-[#006F45]" : ""
+    isPending ? "pending" : isActive ? " px-5  py-2 flex items-center space-x-4 rounded-lg text-[#FFF] bg-[#006F45]" : ""
   }
 >
  <div className='flex justify-center   gap-3 items-center'>
